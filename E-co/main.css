@@ -1,10 +1,11 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .navbar .nav-link{
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: none;
     padding-left: 16px!important;
     padding-right: 16px!important;
 }
@@ -13,7 +14,7 @@ body{
 
 }
 .bg-black{
-    background: #000;
+    background: #ffe6eb;
 }
 /*---Slider-----*/
 .carousel-item{
@@ -85,20 +86,23 @@ body{
      height: 310px;
      width: 320px;
  }
+ .sub-paragraph{
+     font-weight: lighter;
+ }
 .service-icon{
     display: inline-block;
     font-size: 32px;
     margin-bottom: 16px;
-    color:#000;
+    color: #00395f;
     padding: 8px 16;
 }
  /*----END OF SERVICE SECTION---*/
  /*---Product Section----*/
 #products{
-    background: #000;
+    background: #ffe6eb;
 }
 .product-title{
-    color: #fff;
+    color: #00395f;
 }
 .single-item{
     display: inline-block;
@@ -164,7 +168,7 @@ body{
     margin-top: 25px;
 }
 .text-color{
-    color:#000;
+    color:#00395f;
 }
 .watch-img{
     margin-top: 35px;
