@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
 }
 .navbar .nav-link{
     font-size: 14px;
@@ -33,3 +34,167 @@ body{
     url('images/world-of-dogs.jpg');
     background-size: cover;
   }
+  .h5{
+      color: #000;
+  }
+ .btn-color{
+     background: #000;
+     color: grey;
+ }
+ .btn-color:hover{
+     color:gray;
+ }
+ @keyframes carousel-item{
+     16%{
+         transform: translateY(8px);
+     }
+     33%{
+         Transform: translateY(-6px);
+     }
+     50%{
+         transform: translateY(4px);
+     }
+     65%{
+         transform: translateY(-2px);
+     }
+     85%{
+         transform: translateY(1px);
+     }
+     100%{
+         transform: translateY(0);
+     }
+ }
+ .slider-btn{
+     display:inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+ }
+
+ .slider-btn:hover,
+ .slider-btn:focus,
+ .slider-btn:active{
+     animation: slider-btn;
+     animation-duration: 1s;
+     animation-timing-function: ease-in-out ;
+     animation-iteration-count: 1;
+ }
+ /*---End of Slider---*/
+ /*----Service Section---*/
+ .img-container img{
+     height: 310px;
+     width: 320px;
+ }
+.service-icon{
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 16px;
+    color:#000;
+    padding: 8px 16;
+}
+ /*----END OF SERVICE SECTION---*/
+ /*---Product Section----*/
+#products{
+    background: #000;
+}
+.product-title{
+    color: #fff;
+}
+.single-item{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(247,241,241);
+    position: relative;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    cursor: pointer;
+}
+.single-item:before{
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: 
+    radial-gradient(ellipse at center,rgba(248, 248, 248, 0.35) 0%,
+    rgba(247,244,244,0)80%);
+    transition-duration: 0.3s;
+    transition-property: transform, opacity;
+}
+.single-item:hover,
+.single-item:focus,
+.single-item:active{
+    transform: translateY(-5px);
+}
+.single-item:hover:before,
+.single-item:focus:before,
+.single-item:active:before{
+    opacity: 1;
+    transform: translateY(5px);
+}
+.img-container{
+    position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.img-container{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow,transform;
+}
+.img-container:hover,
+.product-img:focus,
+.product-img:active{
+    box-shadow: 3px 1px 4px rgba(247, 243, 243, 0.9);
+    transform: scale(1.1);
+
+}
+ /*-----End of Product Section---*/
+
+ /*----About Section----*/
+#about-sec{
+    margin-top: 25px;
+}
+.text-color{
+    color:#000;
+}
+.watch-img{
+    margin-top: 35px;
+}
+.watch-img{
+animation-name: imgLeft;
+animation-duration: 3s;
+}
+.about-text{
+    animation-name: textRight;
+    animation-duration: 3s;
+}
+@keyframes imgLeft{
+    0%{
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes textRight{
+    0%{
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+ /*---End Of about Section*/
