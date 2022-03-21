@@ -49,6 +49,18 @@
         </div>
     </nav>
     <!---End Of Nav bar-->
+    
+    <form method="GET">
+       <input type="text" name="person">
+       <button>SUBMIT</button>
+    </form>
+
+
+
+    <?php
+       $name = $_GET['person'];
+       echo $name. " is like candy";
+    ?>
     <!----Carousel-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
