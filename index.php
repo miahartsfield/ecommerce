@@ -52,6 +52,8 @@
     
     <form method="GET">
        <input type="text" name="person">
+       <input type="text" name="verb"><caption></caption>
+       <input type="text" name="place">
        <button>SUBMIT</button>
     </form>
 
@@ -59,8 +61,13 @@
 
     <?php
        $name = $_GET['person'];
-       echo $name. " is like candy";
-    ?>
+       $activity = $_GET['verb'];
+       $location = $_GET['place'];
+       echo $name." is someone who likes to go to the ".$location." to ".$activity." in there free time.";
+       ?>
+
+
+
     <!----Carousel-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
