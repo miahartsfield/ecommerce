@@ -27,20 +27,20 @@
         </button>
         <div class="collaspe navbar-collaspe"id="navbarCollaspe">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item active"> 
                     <a href="#" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a herf="#" class="nav-link">Dogs</a>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Dogs</a>
                 </li>
-                <li class="nav-item">
-                    <a herf="#" class="nav-link">About</a>
+                <li class="nav-item active">
+                    <a href="array.php" class="nav-link">Array</a>
                 </li>
-                <li class="nav-item">
-                    <a herf="#" class="nav-link">Contact</a>
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a herf="#" class="nav-link">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">
                       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     </a>
                 </li>
