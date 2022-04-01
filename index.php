@@ -31,10 +31,10 @@
                     <a href="#" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="calculartor.php" class="nav-link">Calculator</a>
+                    <a href="calculator.php" class="nav-link">Calculator</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="array.php" class="nav-link">Array</a>
+                    <a href="array.php" class="nav-link">Arrays</a>
                 </li>
                 <li class="nav-item active">
                     <a href="#" class="nav-link">Contact</a>
