@@ -126,7 +126,7 @@ body{
     opacity: 0;
     background: 
     radial-gradient(ellipse at center,rgba(248, 248, 248, 0.35) 0%,
-    rgba(247,244,244,0)80%);
+    rgba(247,244,244,0)(80%);
     transition-duration: 0.3s;
     transition-property: transform, opacity;
 }
@@ -202,3 +202,4 @@ animation-duration: 3s;
     }
 }
  /*---End Of about Section*/
+

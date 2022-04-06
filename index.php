@@ -37,7 +37,10 @@
                     <a href="array.php" class="nav-link">Arrays</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="dayofweek.php" class="nav-link">Days of the Week</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="switch.php" class="nav-link">switch</a>
                 </li>
                 <li class="nav-item active">
                     <a href="#" class="nav-link">
