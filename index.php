@@ -2,7 +2,6 @@
     include 'header.php';
 ?>
 
-  
     <form method="GET">
        <input type="text" name="person">
        <input type="text" name="verb"><caption></caption>
