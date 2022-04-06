@@ -1,6 +1,7 @@
 <?php
-   include 'functions/user-functions.php';
+    include 'header.php';
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,17 +13,6 @@
 </head>
 
 <body>
-
-<header>
-<nav>
-    <ul>
-        <li><a href="">nav1</a></li>
-        <li><a href="">nav2</a></li>
-        <li><a href="">nav3</a></li>
-        <li><a href="">nav4</a></li>
-    </ul>
-</nav>
-</header>
 
 <h2>What is the first letter in the alphabet?</h2>
 <?php
@@ -45,8 +35,6 @@
             echo "there is no answer";
     }
 ?>
-
-
 
 </body>
 </html>

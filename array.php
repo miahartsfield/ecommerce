@@ -1,5 +1,5 @@
 <?php
-   include 'functions/user-functions.php';
+    include 'header.php';
 ?>
 
 <!DOCTYPE html>
@@ -9,18 +9,6 @@
 <title>Array</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-
-
-<header>
-<nav>
-    <ul>
-        <li><a href="">nav1</a></li>
-        <li><a href="">nav2</a></li>
-        <li><a href="">nav3</a></li>
-        <li><a href="">nav4</a></li>
-    </ul>
-</nav>
-</header>
 
 <?php
     
