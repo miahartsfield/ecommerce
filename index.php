@@ -1,6 +1,19 @@
 <?php
     include 'header.php';
 ?>
+    <?php
+      echo $_GET['name'];
+    ?>
+
+      <form method="GET">
+        <input type="hidden" name="name" value="Mia">
+        <button type="submit">PRESS ME!</button>
+      </form>
+
+    <?php
+        setcookie("name","Mia", time() + 172800);
+        $_SESSION['name'] = "Mia";
+    ?>
 
     <form method="GET">
        <input type="text" name="person">
@@ -9,8 +22,7 @@
        <button>SUBMIT</button>
     </form>
 
-
-
+    
     <?php
        $name = $_GET['person'];
        $activity = $_GET['verb'];
@@ -18,6 +30,7 @@
        echo $name." is someone who likes to go to the ".$location." to ".$activity." in there free time.";
        ?>
 
+    
 
 
     <!----Carousel-->
