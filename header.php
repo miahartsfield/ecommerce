@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>E-commerce</title>
 
   </head>
@@ -53,6 +54,18 @@
     </nav>
     <!---End Of Nav bar-->
 <header>
+<?php
+
+$_SESSION['username'] = "miah23";
+echo $_SESSION['username'];
+
+if (!isset($_SESSION['username'])) {
+      echo "You are not logged in";
+} else{
+    echo "You are logged in!";
+}
+
+?>
 <nav>
     <ul>
         <li><a href="">nav1</a></li>

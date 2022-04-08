@@ -1,4 +1,9 @@
 <?php
+  session_start();
+?>
+
+
+<?php
     include 'header.php';
 ?>
 
@@ -8,7 +13,6 @@
 <head>
 <meta charset="utf-8">
 <title>Day of the week</title>
-<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>

@@ -1,9 +1,14 @@
 <?php
+  session_start();
+?>
+
+
+<?php
     include 'header.php';
 ?>
-    <?php
+<?php
       echo $_GET['name'];
-    ?>
+?>
 
       <form method="GET">
         <input type="hidden" name="name" value="Mia">
@@ -22,6 +27,18 @@
        <button>SUBMIT</button>
     </form>
 
+    <?php
+
+      $_SESSION['username'] = "miah23";
+      echo $_SESSION['username'];
+
+      if (!isset($_SESSION['username'])) {
+            echo "You are not logged in";
+      } else{
+          echo "You are logged in!";
+      }
+
+    ?>
     
     <?php
        $name = $_GET['person'];
