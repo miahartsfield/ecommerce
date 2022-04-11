@@ -6,6 +6,10 @@
 <?php
     include 'header.php';
 ?>
+      <main>
+          
+      </main>
+  
 <?php
       echo $_GET['name'];
 ?>
@@ -27,18 +31,7 @@
        <button>SUBMIT</button>
     </form>
 
-    <?php
-
-      $_SESSION['username'] = "miah23";
-      echo $_SESSION['username'];
-
-      if (!isset($_SESSION['username'])) {
-            echo "You are not logged in";
-      } else{
-          echo "You are logged in!";
-      }
-
-    ?>
+  
     
     <?php
        $name = $_GET['person'];
@@ -47,7 +40,6 @@
        echo $name." is someone who likes to go to the ".$location." to ".$activity." in there free time.";
        ?>
 
-    
 
 
     <!----Carousel-->

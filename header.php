@@ -53,7 +53,7 @@
         </div>
     </nav>
     <!---End Of Nav bar-->
-<header>
+
 <?php
 
 $_SESSION['username'] = "miah23";
@@ -74,6 +74,25 @@ if (!isset($_SESSION['username'])) {
         <li><a href="">nav4</a></li>
     </ul>
 </nav>
+<header>
+    <nav>
+        <a href="">
+            <img src="img/border-collie-puppy.jpg" alt="">
+        </a>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div>
+            <form action="includes/login.inc.php" method="post">
+                <input type="text" name="mailuid" placeholder="Username/E-mail...">
+                <input type="password" name="pwd" placeholder="Password...">
+                <button type="submit" name="login-submit">Login</button>
+            </form>
+        </div>
+    </nav>  
 </header>
 </body>
 </html>
