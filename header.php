@@ -66,21 +66,13 @@ if (!isset($_SESSION['username'])) {
 }
 
 ?>
-<nav>
-    <ul>
-        <li><a href="">nav1</a></li>
-        <li><a href="">nav2</a></li>
-        <li><a href="">nav3</a></li>
-        <li><a href="">nav4</a></li>
-    </ul>
-</nav>
 <header>
-    <nav>
-        <a href="">
+    <nav class= "nav-header-main">
+        <a class="header-logo" href="index.php">
             <img src="img/border-collie-puppy.jpg" alt="">
         </a>
         <ul>
-            <li><a href="#">home</a></li>
+            <li><a href="index.php">home</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">About me</a></li>
             <li><a href="#">Contact</a></li>
@@ -90,6 +82,10 @@ if (!isset($_SESSION['username'])) {
                 <input type="text" name="mailuid" placeholder="Username/E-mail...">
                 <input type="password" name="pwd" placeholder="Password...">
                 <button type="submit" name="login-submit">Login</button>
+            </form>
+            <a href="signup.php">Signup</a>
+            <form action="includes/logout.inc.php" method="post">
+                <button type="submit" name="logout-submit">Logout</button>
             </form>
         </div>
     </nav>  
